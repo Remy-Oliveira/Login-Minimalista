@@ -19,7 +19,7 @@ body {
 .wrapper {
     border: 2px solid rgba(255, 255, 255, 0.337);
     padding: 10px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
 }
 
 .formulario {
