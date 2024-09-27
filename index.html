@@ -12,8 +12,9 @@
 <body>
     <div class="wrapper">
         <form class="formulario">
-            <input type="checkbox" id="toggle">
-            <h2 class="tittle"><strong>Space Fonk</strong></h2>
+
+            <h2 class="tittle"></h2>
+
             <div class="inputBox">
                 <input type="text" id="name" required>
                 <label for="name">Nome</label>
@@ -24,17 +25,21 @@
                 <label for="senha">Senha</label>
             </div>
 
-            <div class="inputBoxRegister">
-                <input type="email" id="email" required>
-                <label for="email">Email</label>
+            <div class="inputBox">
+                <input type="text" id="email" required>
+                <label>Email</label>
             </div>
 
-            <i class='bx bx-right-arrow-alt'></i>
-            
-            <label for="toggle" class="toggle">Cadastrar</label>
-            <label for="toggle" class="toggleBack">Login</label>
+
+            <button type="submit"><i class='bx bx-right-arrow-alt'></i></button>
+          
+            <span onclick="desativar()">Cadastrar</span>
+
+            <span onclick="ativar()">Login</span>
+
         </form>
     </div>
+    <script src="js.js"></script>
 </body>
 
 </html>
